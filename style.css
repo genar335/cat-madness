@@ -1,0 +1,34 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: burlywood;
+    color: ivory;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#btn-container {
+    background-color: burlywood;
+}
+
+#cat_spawner {
+    font-size: 1em;
+    margin-bottom: 5%;
+	margin-top: 0;
+}
+
+
+#catHolder {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+}
