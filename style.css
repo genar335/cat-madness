@@ -6,7 +6,6 @@ body {
     margin: 0;
     background-color: burlywood;
     color: ivory;
-    font-size: 3em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,12 +18,19 @@ body {
     background-color: burlywood;
 }
 
-#cat_spawner {
-    font-size: 1em;
+#cat_spawner, #cat_spawner_breed {
+    font-size: 0.5em;
     margin-bottom: 5%;
 	margin-top: 0;
 }
 
+#breed_cat_interface {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    font-size: 0.5em;
+    justify-content: center;
+}
 
 #catHolder {
     display: flex;
